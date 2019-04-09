@@ -81,7 +81,7 @@
 									</header>
 									
 									<div class="ex1"><p style ="color: black";>
- <iframe src="https://s3.ca-central-1.amazonaws.com/rotmanx/MFRM+-+Craig+Geoffrey/0.1+introduction_v2.mp4" width="100%" height="350px;"></iframe>	<br> </br>								
+ <iframe style="padding-bottom: 5px;" src="https://s3.ca-central-1.amazonaws.com/rotmanx/MFRM+-+Craig+Geoffrey/0.1+introduction_v2.mp4" width="100%" height="350px;"></iframe>								
 The MFRM Investments pre-course covers a variety of topics helpful for studying investments. After taking this course, you should have an understanding of the theories and institutional knowledge underpinning the investment decision-making. Students will learn about the structure of the financial system and how trading operations impact the execution of investment strategies. The theoretical basis of asset pricing is explored, culminating in the derivation of the Capital Asset Pricing Model. Alternate pricing models and the Efficient Market Hypothesis are then discussed. In the bond section, the course works through bond pricing and the yield curve, including estimation of forward rates and theories influencing the Term Structure of Interest Rates. The course concludes with a look at duration as a measure of interest rate risk and bond portfolio management.
 
 
@@ -162,13 +162,20 @@ The MFRM Investments pre-course covers a variety of topics helpful for studying 
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			
-		<script>	if (top.location!= self.location) {
-   top.location = self.location.href; </script>
-   
+		<!-- <script>	if (top.location!= self.location) {
+   top.location = self.location.href; </script> -->
 
-
-
-
+<script type="text/javascript"> // if site open in iframe then redirect to main site
+      
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+  $(function(){
+ if(window.top.location != window.self.location)
+             {
+                top.window.location.href = window.self.location;
+             }
+        });
+}
+</script>
 			
 
 	
